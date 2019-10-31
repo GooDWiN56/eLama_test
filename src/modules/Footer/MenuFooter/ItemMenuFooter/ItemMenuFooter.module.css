@@ -1,0 +1,27 @@
+.item{
+    min-width: 160px;
+    margin-right: 40px;
+}
+.item:last-child{margin-right: 0;}
+.item:nth-child(3){
+    margin-right: auto;
+}
+.item a,
+.item a:visited{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #039BE6;
+}
+.item:last-child a{
+    position: relative;
+}
+.item:last-child a::after{
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    top: -7px;
+    right: -17px;
+    background: url(./../../../../img/Union.svg) no-repeat center;
+}

@@ -1,24 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './fonts/stylesheet.css'
+import Header from './modules/Header/Header';
+import TopBaner from './modules/TopBanner/TopBanner';
+import ContextDesc from './modules/ContextDesc/ContextDesc';
+import Analitics from './modules/Analitics/Analitics';
+import Company from './modules/Company/Company';
+import Footer from './modules/Footer/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="all">
+      <Header />
+      <TopBaner />
+      <ContextDesc />
+      <Analitics />
+      <Company />
+      <Footer />
     </div>
   );
 }

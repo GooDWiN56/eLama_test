@@ -1,0 +1,17 @@
+.button{
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 100px;
+    max-width: 100%;
+}
+.green{
+    padding: 17px 40px;
+    background: #03973D;
+}
+.blue{
+    padding: 8px 30px;
+    background: #039BE6;
+}

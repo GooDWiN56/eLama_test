@@ -1,0 +1,12 @@
+.header{
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+}
+.header>div{
+    display: grid;
+    grid-template-columns: 122px auto 100px;
+    grid-column-gap: 2%;
+}

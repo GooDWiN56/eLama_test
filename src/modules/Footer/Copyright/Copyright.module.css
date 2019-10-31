@@ -1,0 +1,15 @@
+.copy_wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: 24px;
+    color: #484B50;
+}
+.copy_wrap a,
+.copy_wrap a:visited{
+    font-size: 13px;
+    line-height: 24px;
+}

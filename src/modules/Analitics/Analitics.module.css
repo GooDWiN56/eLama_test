@@ -1,0 +1,23 @@
+.analitics{
+    padding-bottom: 180px;
+}
+.analitics>div{
+    display: grid;
+    grid-template-columns: 35% auto;
+    grid-column-gap: 15%;
+}
+.analitics img{
+    max-width: 100%;
+}
+.analitics h1{
+    margin-bottom: 60px;
+}
+.analitics p{
+    margin-bottom: 40px;
+}
+.form{
+    display: grid;
+    grid-template-columns: 190px auto;
+    grid-column-gap: 40px;
+    align-items: center;
+}

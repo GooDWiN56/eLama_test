@@ -1,0 +1,16 @@
+.item{
+
+}
+.item a,
+.item a:visited{
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F4F4;
+    text-decoration: none;
+    
+}
+.item p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #828282;
+}

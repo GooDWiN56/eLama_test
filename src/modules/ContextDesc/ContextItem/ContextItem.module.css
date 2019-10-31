@@ -1,0 +1,12 @@
+.item{
+    text-align: left;
+}
+.image{
+    margin-bottom: 30px;
+}
+.item p:first-child{
+    margin-bottom: 10px;
+}
+.item p:last-child{
+    color: #1D1D39;
+}
